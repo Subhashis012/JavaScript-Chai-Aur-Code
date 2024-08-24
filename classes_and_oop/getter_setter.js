@@ -15,3 +15,6 @@ class User {
 
 const hitesh = new User("hitesh@google.com", "1234")
 console.log(hitesh.password)
+
+hitesh.password = "12345"
+console.log(hitesh.password)
